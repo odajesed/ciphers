@@ -16,6 +16,25 @@
  
  # Cifra de Vigenère
  
+ Com o alfabeto de acordo com o esquema: A = 0, B = 1, C = 2,..., Z = 25 e a utilização de uma chave que deve ser do tamanho da frase a ser encriptografada ( para isso alongamos a chave repetindo ela até necessário tamanho ), como por exemplo:
+ 
+ TEXTO : VAMOSATACARATORRE 
+
+ CHAVE : CALOR
+ 
+ CHAVE0: CALORCALORCALORCA
+ 
+ Parecida com a Cifra de César, a formula é tal:
+ 
+ ![image](https://user-images.githubusercontent.com/39743885/133912024-18197fa8-666b-4fc5-9ac4-5664a326c8b5.png)
+ 
+ P(i) sendo o número da letra a ser encriptografada
+ 
+ K(i) sendo o número da letra da chave
+
+ 
+ 
+ 
  # Cifra Rail Fence
  
  Com a escolha da quantidade de rails, utiliza-se da lógica abaixo para a encriptografia com por exemplo a frase:
